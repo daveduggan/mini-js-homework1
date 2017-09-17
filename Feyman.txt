@@ -1,0 +1,16 @@
+Feynman Writing Prompts
+
+Dave Duggan
+
+
+
+Variables -  A variable is an item that you get to name and assign a value to. You can name your variable anything you like as long as it is not a keyword of the programming language you are using. A variable will be of a certain type but in javascript you do not have to declare the type of your variable. Example: your variable can be of type string or integer or even boole (true of false). In javascript you have to declare the variable before you can use it by using the var statement as follows: var name = “Dave”; - in this example I have created a variable name and assigned the name “Dave” to the variable. The variable type in this example is string. 
+
+
+Strings - Strings are characters as opposed to numbers. In the previous explanation on variables I gave an example of a variable of type string. You will often notice that we use quotation marks to  identify strings when we are coding. So again, if we want to create a string variable we would code as follows: var name = “Dave”  “Dave” is a string - a string of characters.
+
+
+Functions (arguments and returns) - Functions are code snippets that perform tasks that we use often. Functions are very useful because once we write them we can re-suse them over and over and not have to write them from scratch each time. Functions are versatile because we can pass arguments to the functions when we call the function. So for example: we could create a function that calculates the area of a rectange. Our function could take arguments length and width so that when we call the function we pass the length and width for this instance to the function which then calculates the area for our rectangle and the returns the calculated area to us where we called the function.
+
+
+If statements - If statements or conditional statements give our code decision making capability of what to do next based on if something does or does not meet a condition.  A condition could be anything that can result in a true or false statement.  So an if statement could read as follows: if (age < 16) - then we could add code that depends on wether age is or is not under 16. The if statement could be used inside a function and return a result based on weather age is less than 16.  for example: If we had a function called MayIDrive - if (age < 16) person can not drive - return false   
